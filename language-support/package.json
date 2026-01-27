@@ -1,0 +1,25 @@
+{
+  "name": "rayvn",
+  "displayName": "Rayvn",
+  "description": "Rayvn Coding Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.108.1"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "rayvn",
+      "aliases": ["Rayvn", "rayvn"],
+      "extensions": [".rv"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "rayvn",
+      "scopeName": "source.rayvn",
+      "path": "./syntaxes/rayvn.tmLanguage.json"
+    }]
+  }
+}
