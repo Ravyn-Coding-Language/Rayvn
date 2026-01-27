@@ -377,22 +377,6 @@ Key VM concepts:
 
 ---
 
-## Roadmap
-
-Planned future features:
-
-- Garbage collection
-- Closures
-- User-defined types
-- Standard library
-- Better error messages
-- REPL
-- Bytecode disassembler
-- Debugger
-- Optimizations
-
----
-
 ## Status
 
 Rayvn is currently a **fully working educational language** with:
